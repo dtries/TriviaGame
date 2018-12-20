@@ -1,1 +1,109 @@
-create style folder for project
+
+header {
+    background-color: #EBEF91;
+    padding: 10px 5px 10px 5px;
+    text-shadow: 2px 2px 6px black;
+    /* width: 30%; */
+    /* text-align: center; */
+}
+
+body {
+    background-image: url("../images/the-goldbergs.jpg");
+    background-position: 0px 75px;
+    font-family: 'Lilita One', cursive;
+    font-size: 28px;
+    line-height: 1.5;
+    color: #EC0704;
+    background-color: #EBEF91;
+    text-align: center;
+
+}
+
+.container-fluid {
+    border: solid 2px black;
+    background-color: #EBEF91;
+    text-align: center;
+    height: 5%;
+    width: 30%;
+    height: 25%;
+    padding: 30px 30px 10px 30px;
+    /* margin-top: 0.2%; */
+    font-family: 'Lilita One', cursive;
+}
+
+#Begin_Btn,
+.reset {
+    margin-top: 6%;
+    margin-bottom: 2%;
+    font-size: 26px;
+    color: #F74691;
+    background-color: #7543A3;
+}
+
+#Game_Instructions {
+    /* color: #7543A3; */
+    font-size: 38px;
+    color: black;
+    /* text-shadow: 2px 2px 6px #EC0704; */
+}
+
+.Answer_Option:hover{
+    background-color: #7543A3;
+}
+
+.Answer_Option {
+    margin: 5px 0 5px 0;
+    color: #F74691;
+    font-size: 36px;
+}
+
+#The_Time {
+    color: #7543A3;
+    font-size: 50px;
+}
+
+#Question_Number {
+    color: #C8EFF6;
+    font-size: 38px;
+    text-shadow: 2px 2px 6px #6E6F44;
+}
+
+#The_Question {
+    color: black;
+    font-size: 40px;
+}
+
+
+#Right_Wrong_Message {
+    color: #F74691;
+    font-size: 38px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    /* text-shadow: 2px 2px 6px #7543A3; */
+} 
+#Score_Message {
+    color: #7543A3;
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+#Number_Wrong,
+#Number_Correct,
+#Number_Timed_Out {
+    color: #F74691;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+#WhatIsCorrect {
+    color: #EC0704;
+    font-size: 38px;
+    margin-bottom: 38px;
+}
+
+#Begin_Btn:hover,
+.reset:hover {
+    color: #7543A3;
+    background-color: #F74691;
+    border-color: #C8EFF6; 
+}

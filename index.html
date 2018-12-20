@@ -1,1 +1,106 @@
-make initial index file
+<!--TRIVIA GAME HTML PAGE-->
+
+<!DOCTYPE html>
+
+<html ln="en-us">
+
+    <head>
+
+        <meta charset="utf-8">
+        <title> The Goldbergs Trivia Game </title>
+
+        <!-- Google fonts link here, type as of yet undetermined -->
+
+        <!-- Reset css -->
+        <link rel="stylesheet" href="assets/css/reset.css">
+
+        <!-- Bootstrap CSS place before other stylesheets in <head> except reset.css -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous">
+
+        <!--Font Link  -->
+        <link href="https://fonts.googleapis.com/css?family=Lilita+One" rel="stylesheet">
+
+        <!-- Style Sheet -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+
+    </head>
+
+    <body>
+
+
+        <header>
+            <h1>The Goldbergs TV Show Trivia Game!</h1>
+
+        </header>
+
+        <div class="container-fluid">
+
+            <!--Opening Page with Instructions and Button to Begin Game-->
+            <div class="Start_Page">
+
+                <h2 id="Game_Instructions"> </h2>
+
+                <button class="btn btn-primary" id="Begin_Btn" type="submit"> Begin Game </button>
+            </div>
+
+            <!--Page with Questions and Answer Choices-->
+            <div class="Q_Page">
+
+                <div id="Timer">  </div>
+
+                <div id="Question_Number">  </div>
+
+                <div id="Question"> </div>
+
+                <div class="Answer_Selections">  </div>
+
+            </div>
+
+            <!--Page with Answer Outcome for Each Question-->
+            <div class="Answer_Results_Page">
+
+                <div id="Right_Wrong_Message">  </div>
+
+                <div id="WhatIsCorrect">  </div>
+
+                <div id="Video_Display">  </div>
+
+            </div>
+
+            <!--Final Score Page-->
+            <div class="Final_Score_Page">
+
+                <div id="Score_Message">  </div>
+
+                <div id="Number_Correct">  </div>
+
+                <div id="Number_Wrong">  </div>
+
+                <div id="Number_Timed_Out">  </div>
+
+                <div id="Play_Again_Btn"> </div>
+
+
+            </div>
+
+        </div>
+
+
+        <!-- javascript links for jquery and bootstrap -->
+
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+        <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+
+    </body>
+
+</html>
