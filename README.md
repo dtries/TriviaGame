@@ -6,7 +6,7 @@ Create a working game that employs timers and updates displays actively.
 
 # Play the Game
 
-<div align="center">
+<div align="left">
     <img src="/assets/images/screenshot.png" width="400px"</img> 
 </div>
 <br>
