@@ -5,7 +5,7 @@ A timed trivia game with a 9 second time limit per question. Upon answering the 
 Create a working game that employs timers and updates displays actively.
 
 # Play the Game
-![Alt text](/relative/path/to/img.jpg?raw=true "Optional Title")
+![The Goldbergs](/assests/images/screenshot.png?raw=true "Optional Title")
 
 https://dtries.github.io/TriviaGame/
 
