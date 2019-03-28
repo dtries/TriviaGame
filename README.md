@@ -7,7 +7,10 @@ Create a working game that employs timers and updates displays actively.
 # Play the Game
 ![The Goldbergs](/assets/images/screenshot.png?raw=true "Optional Title")
 
-![Screenshot](http://assets/images/screenshot.png)
+<div align="center">
+    <img src="/assets/images/screenshot.png" width="400px"</img> 
+</div>
+
 
 https://dtries.github.io/TriviaGame/
 
